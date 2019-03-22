@@ -18,7 +18,7 @@ def main():
 
     setup(
         name='pyhgvs',
-        version='0.9.5',
+        version='0.9.6',
         description='HGVS name parsing and formatting',
         long_description=description,
         author='Matt Rasmussen',
@@ -29,9 +29,7 @@ def main():
             '': ['requirements-dev.txt'],
         },
         scripts=[],
-        install_requires=['pip>=1.2',
-                         'pygr==0.8.2'
-                         ],
+        install_requires=['pip>=1.2'],
         tests_require=['nose==1.3.4',
                        'flake8==2.2.5',
                        'pygr==0.8.2'
